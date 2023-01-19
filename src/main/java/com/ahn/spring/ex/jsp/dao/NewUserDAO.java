@@ -16,4 +16,6 @@ public interface NewUserDAO {
 			, @Param("email") String email
 			, @Param("introduce") String introduce
 			);
+	
+	public int insertUserByObject(NewUser user);
 }
